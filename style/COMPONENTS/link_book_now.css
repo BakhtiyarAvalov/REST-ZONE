@@ -1,0 +1,56 @@
+.link_book_now{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.181),
+     rgba(0, 0, 0, 0.257)), url(../../img/panorama.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.link_book_now_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link_book_now_item{
+    font-size: 36px;
+    line-height: 1.34;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 37px;
+}
+.link_book_now_item_style{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 18px 35px;
+    line-height: 1.5;
+    background-color: #5C98F3;
+    border-radius: 5px;
+    transition: .4s;
+    border: none;
+    cursor: pointer;
+}
+.link_book_now_item a:hover{
+    background-color: #343333;
+}
+.top_content button{
+    margin: 0 20px;
+}
+.top_content button:hover{
+    background-color: #343333;
+}
+.link_book_now_item{
+    font-family: 'poppins';
+}
+
+@media(max-width: 1100px){
+    .link_book_now_item{
+        font-size: 27px;
+    }
+}

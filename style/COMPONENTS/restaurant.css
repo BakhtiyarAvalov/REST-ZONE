@@ -1,0 +1,94 @@
+.restaurant_basckgraund {
+  background-color: #fff;
+}
+.restaurant {
+  width: 100%;
+  box-shadow: 0px 2px 100px 53px rgba(34, 60, 80, 0.358) inset;
+  padding-bottom: 40px;
+}
+.restaurant_menu {
+  background-color: #5c98f3;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant_head h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: 'Playfair Display';
+  padding: 70px 0 39px 0;
+}
+.restaurant_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant_menu_price {
+  margin: 40px 20%;
+  padding-bottom: 40px;
+}
+.restaurant_menu a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 35px 25px;
+}
+.restaurant_menu li {
+  list-style: none;
+  margin: 5px 30px;
+}
+.price {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: rgba(92, 152, 243, 0.8);
+}
+.menu_price {
+  width: 80%;
+}
+.menu_price h4 {
+  padding-top: 25px;
+  font-size: 24px;
+  line-height: 1.2;
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: 'Playfair Display';
+}
+.menu_price_text {
+  font-family: 'poppins';
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: rgba(21, 21, 21, 0.8);
+  background-color: #ffffff;
+  letter-spacing: -0.03em;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.menu_price p {
+  padding-top: 25px;
+}
+@media(max-width: 1100px){
+  .restaurant_head h3{
+    font-size: 22px;
+  }
+  .restaurant_menu a{
+    font-size: 15px;
+  }
+}
+@media(max-width: 800px){
+  .restaurant_menu{
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu_price{
+    width: 100%;
+  }
+  .menu_price h4{
+    font-size: 15px;
+  }
+ 
+}

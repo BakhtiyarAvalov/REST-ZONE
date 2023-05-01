@@ -1,0 +1,15 @@
+@import url('../style/VENDOR/reset.css');
+@import url('COMPONENTS/base.css');
+@import url('COMPONENTS/heder.css');
+@import url('COMPONENTS/main_page.css');
+@import url('COMPONENTS/Check_availability.css');
+@import url('COMPONENTS/introduction.css');
+@import url('COMPONENTS/rooms.css');
+@import url('COMPONENTS/restaurant.css');
+@import url('COMPONENTS/book_now.css');
+@import url('COMPONENTS/gallery.css');
+@import url('COMPONENTS/services.css');
+@import url('COMPONENTS/link_book_now.css');
+@import url('COMPONENTS/news.css');
+@import url('COMPONENTS/link_book_now_lost.css');
+@import url('COMPONENTS/footer.css');

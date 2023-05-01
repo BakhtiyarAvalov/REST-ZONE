@@ -1,0 +1,122 @@
+.book_now {
+  margin-top: 60px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.book_now_backgraund{
+  width: 60%;
+}
+.book_now_backgraund_img {
+  width: 40%;
+}
+.book_now_backgraund_img img {
+  width: 90%;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.book_now_backgraund_img{
+  position: relative;
+}
+.book_now_registration_item {
+  display: flex;
+  justify-content: space-between;
+}
+.book_now_registration_name {
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+.book_now_registration_name input {
+  height: 60px;
+  width: 100%;
+  padding-right: 0;
+}
+.link_book_now_lost_input {
+  position: relative;
+}
+.book_now_text {
+  position: absolute;
+  font-size: xx-small;
+  right: 7px;
+  top: 7px;
+}
+
+.book_now_registration_email input {
+  width: 100%;
+  min-height: 60px;
+}
+.book_now_registration_massage input {
+  width: 100%;
+  height: 120px;
+}
+.book_now_backgraund_head {
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #151515;
+  padding: 10px 25px;
+  position: relative;
+}
+.parameters {
+  font-size: 22px;
+  padding: 1px 1px 10px 10px;
+  color: #151515;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+}
+.book_now_registration_request {
+  margin: 30px 0;
+}
+.book_now_registration_request a {
+  text-decoration: none;
+  padding: 18px 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  border-radius: 5px;
+  background-color: #5c98f3;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.book_now_registration_request a:hover {
+  background-color: #343333;
+}
+
+.book_now_registration_room {
+  width: 50%;
+}
+#room {
+  width: 100%;
+  height: 65px;
+}
+@media(max-width: 1100px){
+  .book_now_backgraund_head h3{
+    font-size: 22px;
+  }
+
+}
+@media(max-width: 940px){
+  .book_now_registration_item{
+    flex-direction: column;
+    width: 100%;
+  }
+  .book_now_registration_request a{
+    padding: 14px 27px;
+    font-size: 12px;
+  }
+  .book_now_registration_name,
+  .book_now_registration_room{
+    width: 100%;
+  }
+}
+@media(max-width: 740px){
+  .book_now_backgraund{
+    width: 100%;
+  }
+  .book_now_backgraund_img{
+    display: none;
+  }
+}

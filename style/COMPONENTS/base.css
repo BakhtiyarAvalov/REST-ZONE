@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'poppins';
+  src: url(../FONTS/Poppins-LightItalic.ttf);
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(../FONTS/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.conteiner {
+  width: 80%;
+  margin: 0 auto;
+}
+.direction{
+  text-decoration: none;
+}
+

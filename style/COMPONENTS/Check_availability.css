@@ -1,0 +1,102 @@
+.Check_availability {
+  display: flex;
+  justify-content: center;
+
+}
+
+.Check_availability_items {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 25px 17px 27px -1px rgba(34, 60, 80, 0.2);
+  position: relative;
+  bottom: 45%;
+}
+.Check_availability_examination:not(:last-child) {
+  background-color: #ffffff;
+  border-right: 1px solid #000;
+  padding: 0px 20px;
+  text-align: start;
+}
+.Check_availability_examination_a{
+  display: flex;
+
+}
+.Check_availability_examination:last-child {
+  background-color: #ffffff;
+  padding: 0px 20px;
+  text-align: start;
+}
+.Check_availability_items h4 {
+  text-align: justify;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+#lost_item {
+  text-decoration: none;
+  background-color: #5c98f3;
+  color: #ffffff;
+  padding: 18px 19px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.Check_availability_examination input {
+  width: 150px;
+  height: 50px;
+  font-size: 1.3em;
+  border: none;
+}
+.Check_availability_examination b {
+  padding: 0 10px;
+}
+#input {
+  width: 50px;
+  height: 40px;
+  border: none;
+  font-size: 22px;
+}
+@media(max-width: 1100px){
+  .Check_availability_items{
+    flex-wrap: wrap;
+  }
+  .Check_availability_examination:not(:last-child){
+    border: none;
+  }
+  .Check_availability_examination{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   
+  }
+  .Check_availability_examination_a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 60%;
+  }
+  #lost_item {
+    font-size: 10px;
+  }
+}
+@media(max-width: 690px){
+  .Check_availability_examination{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   }
+   .Check_availability_items{
+    padding: 30px;
+   }
+}
+@media(max-width: 540px){
+  .Check_availability_examination a{
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,118 @@
+.rooms_suites {
+  width: 100%;
+}
+.rooms_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.rooms {
+  text-align: center;
+  font-size: 18px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.rooms_img {
+  margin: 30px 10px;
+  display: flex;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.rooms h3 {
+  font-family: 'Playfair Display';
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 1000;
+  color: #151515;
+  padding-top: 30px;
+  line-height: 3em;
+  font-size: 36px;
+}
+.rooms p {
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: rgba(21, 21, 21, 0.8);
+  margin-top: 15px;
+  font-family: 'poppins';
+}
+.rooms_img a {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: 'Playfair Display';
+  color: #000;
+  padding-top: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.rooms_img p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #5c98f3;
+  font-weight: 500;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+
+.rooms_img_link {
+  width: 300px;
+  height: 324px;
+  position: relative;
+  padding: 300px 50px 120px;
+  overflow: hidden;
+}
+.rooms_img_link img {
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+.rooms_img_link a {
+  background-color: #5c98f3;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  opacity: 0;
+}
+.rooms_img a:hover {
+  color: #5c98f3;
+}
+.rooms_img_link:hover img {
+  transform: scale(1.1);
+}
+.rooms_img_link:hover a {
+  opacity: 1;
+}
+.rooms_img_link a:hover {
+  color: #fff;
+  background-color: #000;
+}
+.restaurant_menu a{
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+@media(max-width:1100px){
+  .rooms h3{
+    font-size: 22px;
+  }
+  .rooms_img a{
+    font-size: 17px;
+  }
+  .rooms_photo{
+    flex-wrap: wrap;
+  }
+}
